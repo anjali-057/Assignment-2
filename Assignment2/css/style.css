@@ -1,0 +1,219 @@
+body{
+    background-color: #f8e1e1cc;
+}
+/* Styling for the <h1> element */
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Quicksand', sans-serif;   
+}
+/* Styling for the <h2> element */
+h2{
+    text-decoration: underline; /*decoration is added to the text*/
+    font-size: 22px;
+    text-align: center; /*text is aligned in the center*/
+}
+#lyrics {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2px 191px;
+}
+#lyrics div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#lyrics > p:nth-child(1){
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: underline;
+    color: #FFD700; /* Yellow color */
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Pacifico', cursive;
+}
+#lyrics > p:nth-child(2){
+    font-weight: bold;
+    font-size: 20px;
+    color: #27292a; /* Midnight blue color */
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+#lyrics > p:nth-child(3){
+    color: #FF6347; /* Tomato red color */
+    font-style: italic;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive; /*different font styles*/
+}
+
+
+#lyrics > p:nth-child(4){
+    font-weight: bold;
+    font-size: 20px;
+    color: #27292a; 
+    text-align: center;
+    font-family: 'Inconsolata', monospace; /*font style is added*/
+}
+.highlight:nth-child(2),
+span:nth-child(5),
+span:nth-child(7){
+    color: #FF6347; 
+    font-style: italic;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+}
+.highlight:nth-child(1),
+span:nth-child(4),
+span:nth-child(6),
+span:nth-child(8){
+    text-align: center; /*styling for the span element*/
+    font-family: 'Quicksand', sans-serif;
+    font-size: 26px;
+color: #6B8E23;
+font-weight: 600;
+}
+#lyrics >p:nth-child(5){
+    color: #FF6347; 
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+#lyrics >p:nth-child(6){
+    font-weight: bold;
+    font-size: 20px;
+    color: #27292a; /*midnight blue colour*/
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+#lyrics >p:nth-child(7){
+    font-weight: bold;
+    font-size: 20px;
+    color: #27292a; 
+    text-align: center;
+    font-family: 'Inconsolata', monospace;/*font styliing*/
+}
+#lyrics >p:nth-child(8){
+    color: #FF6347; 
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+#lyrics >p:nth-child(9){
+    font-weight: bold;
+    font-size: 24px;
+    color: #27292a; 
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+#lyrics >p:nth-child(10){
+    color: #FF6347; 
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+.last >span:nth-child(1),
+span:nth-child(3),
+span:nth-child(4),
+span:nth-child(7),
+#lyrics > div > span:nth-child(10){
+    color: #FF6347; 
+    font-style: italic;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+}
+.last >span:nth-child(2),
+span:nth-child(5),
+span:nth-child(6),
+span:nth-child(8), 
+#lyrics > div > span:nth-child(11){
+    font-weight: bold;
+    font-size: 24px;
+    color: #27292a; 
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+.last > span{
+    margin: 0;
+    padding: 0;
+}
+.blue{
+    font-size: 20px;
+    color: #27292a !important; 
+    text-align: center;
+    font-family: 'Inconsolata', monospace !important;
+}
+.text{
+    font-weight: bold; 
+    color: #FF5733;
+}
+#lyrics > p:nth-child(6) > span:nth-child(4){
+    font-weight: bold; 
+    color: #FF5733;
+}
+span.sad{
+    color: rgb(178, 178, 231) !important;
+    font-family: 'Pacifico', cursive;
+}
+span.happy{
+    color: #FF5733 !important;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+span.fear{
+    color: rgb(37, 37, 139)!important;
+    font-family: 'Cinzel', serif;
+}
+span.command{
+    color: rgb(183, 41, 69)!important;
+}
+span.name{
+    color: rgb(216, 83, 39)!important;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Pacifico', cursive;
+}
+span.confused{
+    color: rgb(120, 108, 104)!important;
+    font-family: 'Pixelify Sans', sans-serif;
+
+}
+span.fantasy{
+    color: rgb(86, 49, 131)!important;
+    font-family: 'Bonbon', cursive;
+
+}
+span.money{
+    color: rgb(47, 161, 60)!important;
+}
+span.anger{
+    color: rgb(170, 5, 5)!important;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 500;
+
+}
+span.big{
+    color: #cb7762;
+    font-size: 3rem;
+}
+span.lastt{
+    color: #006400 !important;
+    font-size: 1.9rem;
+}
